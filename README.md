@@ -11,15 +11,15 @@ void setup()
 
 void loop()
 {
-  // sweep the servo from 0 to 360 degrees in steps
+  // sweep the servo from 0 to 90 degrees in steps
   // of 1 degrees
-  for (pos = 0; pos <= 360; pos += 1) {
+  for (pos = 0; pos <= 90; pos += 1) {
     // tell servo to go to position in variable 'pos'
     servo_9.write(pos);
     // wait 15 ms for servo to reach the position
     delay(1); // Wait for 1 millisecond(s)
   }
-  for (pos = 360; pos >= 0; pos -= 1) {
+  for (pos = 90; pos >= 0; pos -= 1) {
     // tell servo to go to position in variable 'pos'
     servo_9.write(pos);
     // wait 15 ms for servo to reach the position
