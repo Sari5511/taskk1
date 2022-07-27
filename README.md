@@ -27,8 +27,7 @@ void loop()
   }
 (س
 
-(س
-// C++ code
+(س// C++ code
 //
 void setup()
 {
