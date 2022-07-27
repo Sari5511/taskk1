@@ -25,4 +25,17 @@ void loop()
     // wait 15 ms for servo to reach the position
     delay(15); // Wait for 15 millisecond(s)
   }
+(س
+
+(س
+// C++ code
+//
+void setup()
+{
+  pinMode(11, OUTPUT);
+}
+
+void loop()
+{
+  analogWrite(11,255);
 }
