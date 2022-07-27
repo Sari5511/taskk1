@@ -25,9 +25,9 @@ void loop()
     // wait 15 ms for servo to reach the position
     delay(15); // Wait for 15 millisecond(s)
   }
-(س
+(
 
-(س// C++ code
+(// C++ code
 //
 void setup()
 {
